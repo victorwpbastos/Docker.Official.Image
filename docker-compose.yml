@@ -5,7 +5,5 @@ services:
     entrypoint: mongod --smallfiles
   rocketchat:
     image: rocket.chat:latest
-    environment:
-      ROOT_URL: 'http://localhost'
     ports:
       - "6000:3000"
